@@ -43,9 +43,9 @@ function checkAns(form)
 		}
 		else {
 		if(a===0)
-			alert("Please attempt all questions");
+			alert("Please attempt atleast one question!");
 		if(c===len)
-			{alert('All Answers are correct');}
+			{alert('All Answers are correct!');}
 		/*else
 			alert("all ans are correct.");*/
 		return false;
